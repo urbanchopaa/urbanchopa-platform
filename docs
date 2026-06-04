@@ -1,1 +1,48 @@
+# Urban Chopa Stellar Settlement Architecture
 
+## Overview
+
+The system enables Urban Chopa to settle transactions using Stellar.
+
+## Actors
+
+1. Customer
+2. Urban Chopa Platform
+3. Vendor
+4. Stellar Network
+
+## Flow
+
+Customer places order
+        ↓
+Customer pays Urban Chopa
+        ↓
+Order is completed
+        ↓
+Settlement Engine calculates payout
+        ↓
+Funds are sent to Vendor Wallet
+        ↓
+Vendor receives settlement
+
+## Components
+
+### Frontend
+- Vendor dashboard
+- Transaction history
+
+### Backend
+- Order management
+- Settlement engine
+- Stellar integration
+
+### Stellar Layer
+- Wallet management
+- Transaction processing
+- Payment verification
+
+## Future Enhancements
+
+- Automated payouts
+- Multi-currency support
+- Anchor integration
