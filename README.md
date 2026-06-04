@@ -11,7 +11,7 @@ Urban Chopa Team
 
 ## Current Phase
 
-Instawards Development Sprint
+Stellar Instawards Development Sprint
 
 ## Planned Deliverables
 
